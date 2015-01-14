@@ -1,0 +1,199 @@
+
+
+#gold {background-color: rgba(0,0,0,.5);
+		border-radius: 8px;
+		/*width: 400px;*/
+	color: gold; }
+#gold h1{font-size: 2.5em; 
+		font-family: 'Changa One', cursive;
+		padding-left: 50px}
+#gold p {font-size: 1.2em;
+		font-family: 'Special Elite', cursive;
+		padding-left: 20px;}
+
+/*#gold {background-color: black;
+	color: gold;
+	font-family: prehistoric;}*/
+	
+
+img {position: absolute;/*I have to be told a logical reason not to use absolute positioning. Besides, it was necessary for the z-index*/
+    left: 0;
+    top: 3%;
+    z-index: -1;}
+	
+#croc{position: absolute;
+    left: 0;
+    top: 3%;
+    z-index: -1;
+	margin-top: 5%;}
+	
+
+nav {font-size: 1.7em;
+	font-family: 'Special Elite', cursive;
+	width: 100%;/*at the last second I made the nav bar long, as it was affecting the short story page negatively. By doing so I had to make changes to other pages*/
+	height: 10%;
+	border-radius: 8px;
+	background-color: rgba(2198,132,71,.6);
+	}	
+	
+nav ul {list-style-type: none;
+		padding-top: 8px;
+	}
+nav li {padding-right: 8px;
+float: left;}
+
+nav a:link { color:black;
+			font-weight: bold;
+			text-decoration: none;
+		  }
+
+nav a:hover { color:black;
+			font-style: italic;
+			font-weight: bold;
+			text-decoration: underline;
+		  }
+
+nav a:visited { color:gold;
+			font-weight: bold;
+			text-decoration: none;
+		  }
+
+
+
+.n{font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		color: black;
+		text-indent: 3em;}
+		
+
+.homebg {background-image: url(bg2filter.jpg);
+	  background-size: cover;
+	  position: relative;}
+	  
+.storybg {background-image: url("bg2junglefilter.jpg");
+	  background-size: cover;
+	  background-color: #898989;
+	  position: relative;}
+
+
+.storyone {text-indent: 3em;
+background-color: rgba(0,0,0,.7);
+border-radius: 8px;
+border-width: 10px;
+color: gold;
+display: inline-block; width:57%;
+margin-left: 1%
+}
+
+
+#tree {background-color: black;}
+
+.column-left/*my tutor has an unhealthy obsession with columns. Heck if I know why, but I go with what she says, because, she can help. Anyways, more changes had to be made after fixing the nav bar.*/{ float: left; width: 20%; background-image: url("bg-page.jpg"); background-repeat: repeat-y; height: 250%; z-index; -1}
+.column-right{float: right; width: 20%; background-image: url("bg-page.jpg"); background-repeat: repeat-y; height: 250%}
+
+.column-1L{ Position: absolute;/*I had to add this after fixing the nav bar*/
+left: 1%;
+top: 37%;
+float: left; width: 22%;
+color: gold;
+border-width: 10px;
+margin-top: 0%;
+background-color: rgba(0,0,0,.7);
+		border-radius: 8px;
+		padding: 8px;
+
+ }
+.column-2r{ width: 55% ;
+		background-color: rgba(0,0,0,.7);
+		border-radius: 8px;
+		padding: 8px;
+		padding-left: 15px;
+		margin-top: 30%;
+		margin-left: 35%;
+		margin-right: auto;/*what the heck does this do?*/
+		color: #fcdd2f; }
+
+#B1 {position: absolute;
+border-style: double;
+border-width: 10px;
+Height: 300%;
+width: 16%;
+left: 15%;
+top: 100%; }
+
+#B3 {position: absolute;
+border-style: double;
+border-width: 10px;
+Height: 300%;
+width: 16%;
+left: 15%;
+top: 470%; }
+
+#B2 {position: absolute;
+border-style: double;
+border-width: 10px;
+Height: 300%;
+width: 16%;
+left: 50%;
+top: 100%; }
+
+#B4 {position: absolute;
+border-style: double;
+border-width: 10px;
+Height: 300%;
+width: 16%;
+left: 50%;
+top: 470%; }
+
+#about {Position: absolute;
+top: 200%;/*don't ask*/
+color: gold;
+width: 30%;
+/*background-color: rgba(0,0,0,.7);
+border-radius: 8px;*/
+border-color: red;
+border-style: solid;
+border-width: 1px;
+}
+
+#meandOtis {position: absolute;
+margin-bottom: 12%;}
+
+#oi {margin-top: 70%;
+background-color: rgba(0,0,0,.7);
+border-radius: 8px;}
+
+#blog {Position: absolute;
+top: 200%;
+left: 33%;
+color: gold;
+background-color: rgba(0,0,0,.7);
+border-radius: 8px;
+/*border-color: red;
+border-style: solid;*/
+border-width: 1px;}
+
+body{background-image: url(bg2filter.jpg);
+	  background-size: cover;
+	  position: relative;}
+	  
+#storybg{background-image: url(bg2junglefilter.jpg);
+ background-size: cover;
+	  position: relative;}
+	  
+#authorbg{background-image: url(bg2dogefilter.jpg);
+ background-size: cover;
+	  position: relative;}
+	  
+#bookbg{background-image: url(bg2authorfilter.jpg);
+ background-size: cover;
+	  position: relative;}
+	  
+
+	  
+	  
+
+
+
+	  
+
